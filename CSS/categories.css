@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F3F4F6;
+}
+.content-wrapper {
+    flex: 1 0 auto;
+}
+footer {
+    flex-shrink: 0;
+}
+
+.btn-edit {
+    color: rgb(77, 61, 255);
+    padding: 0;
+}
+
+.btn-cancle {
+    color: rgb(77, 61, 255);
+}
+
+.btn-delete {
+    color: rgb(253, 42, 42);
+}
+
+.btn-addNewCate {
+    background-color: #22C55E;
+    color: white;
+}
+
+.btn-addNewCate:hover {
+    background-color: #1a9045;
+    color: white;
+}
+
+.title-vocab {
+    font-weight: bold;
+    font-size: 26.8px;
+    color: #212529;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+
+input#searchCategory {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.navBar ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.navBar ul a:hover{
+    color: #1E40AF;
+}
+
+.navBar-container {
+    background-color: white;
+    display: flex;
+    padding: 17.5px 0 18.5px 104px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.176);
+}
+
+.container-cate {
+    padding: 20px 104px 0 104px;
+}
+
+.footer-container {
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-top: 15px;
+}
+
+.footer-container p{
+    margin-top: 1rem;
+    color: #4B5563;
+}
+
+.table-responsive {
+    border-radius: 8px;
+}
+.table-responsive .table{
+    border-radius: 8px;
+    margin-bottom: 0;
+}
+
+.table #categoryTableBody tr td {
+    align-content: center;
+}
+
+.pagination {
+    margin-bottom: 0;
+}
+
+.pageChange {
+    margin-top: 20px;
+}
+
+.pageChange .pageChangeBtn {
+    border: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 65px;
+}
+
+.pageChange .pageChangeBtn li a:hover{
+    color: #0323f4;
+    font-weight: bold;
+}
+
+.pageChange .pageChangeBtn li a{
+    font-size: large;
+}

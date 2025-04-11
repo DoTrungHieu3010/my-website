@@ -1,0 +1,145 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F3F4F6;
+}
+
+.content-wrapper {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+.navBar {
+    background-color: white;
+    padding: 17.5px 0 18.5px 104px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.176);
+}
+
+.navBar .container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar .container ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    gap: 16px;
+    margin: 0;
+}
+
+.navBar .container ul li a:hover {
+    color: #1E40AF;
+}
+
+.container-content {
+    padding: 20px 104px 0 104px;
+}
+
+.select-vocab {
+    width: 100%;
+    background-color: white;
+    align-items: flex-start;
+}
+
+.input-group {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.btn-add {
+    background-color: #22C55E;
+    color: white;
+}
+
+.btn-add:hover {
+    background-color: #1a9045;
+    color: white;
+}
+
+.title-vocab {
+    font-weight: bold;
+    font-size: 26.8px;
+    color: #212529;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+
+.table-responsive {
+    border-radius: 8px;
+}
+.table-responsive .table{
+    border-radius: 8px;
+    margin-bottom: 0;
+}
+
+.table-responsive .table #vocabularyTableBody .btn-action {
+    display: flex;
+}
+
+.table-responsive .table #vocabularyTableBody .btn-edit {
+    color: rgb(77, 61, 255);
+    padding: 0;
+}
+
+.table-responsive .table #vocabularyTableBody .btn-delete {
+    color: rgb(253, 42, 42);
+}
+
+.table-responsive .table #vocabularyTableBody tr td {
+    align-content: center;
+}
+
+.pageChangeBtn {
+    border: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 65px;
+}
+
+.pageChange {
+    margin-top: 20px;
+}
+
+.pageChange .pageChangeBtn li a:hover{
+    color: #0323f4;
+    font-weight: bold;
+}
+
+.pageChange .pageChangeBtn li a{
+    font-size: large;
+}
+
+.footer-container {
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-top: 15px;
+}
+
+.footer-container p{
+    margin-top: 1rem;
+    color: #4B5563;
+}
+
+.btn-edit:hover{
+    color: #212529;
+}
+
+.btn-delete:hover{
+    color: #212529;
+}

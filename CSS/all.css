@@ -1,0 +1,29 @@
+*{
+    font-family: "Inter", sans-serif;
+    color: #1F2937;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 5px;
+}
+
+
+.form-control.is-invalid {
+    border-color: #dc3545;
+}
+
+.invalid-feedback {
+    display: block;
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
