@@ -16,7 +16,7 @@ if (currentUser) {
             logoutModal.show();
             document.getElementById('confirmLogout').addEventListener('click', function() {
                 localStorage.removeItem('currentUser');
-                window.location.href = '../HTML/login.html';
+                window.location.href = "../index.html";
             });
         });
     }
